@@ -1,0 +1,11 @@
+body {
+  font-size: 100vw;
+}
+
+p {
+    font-size: calc(20px + 1.5vw);
+}
+h2 {
+    font-size: 4vmax;
+}
+
