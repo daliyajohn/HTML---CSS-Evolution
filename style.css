@@ -1,11 +1,35 @@
 body {
-  font-size: 100vw;
+    font-size: 100vw;
+    height: 100%;
 }
 
 p {
     font-size: calc(20px + 1.5vw);
 }
+
 h2 {
     font-size: 4vmax;
 }
 
+article {
+    font-size: calc(3px + 1.1vw);
+    padding: 28px 30px 5px 23px;
+}
+
+.left-article {
+    width: 25%;
+    float: left;
+}
+
+.right-article {
+    width: 65%;
+    float: left;
+}
+
+.article-meta-data {
+    position: fixed;
+    width: 26%;
+    overflow-y: scroll;
+    height: 86vh;
+    padding: 28px 17px 5px 0px;
+}
