@@ -8,6 +8,29 @@
     crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
     crossorigin="anonymous"></script>
+  <script>
+    function buttonActive() {
+      var element = document.getElementById("bubbleId1");
+      element.classList.toggle("bubbleClass1");
+      var element = document.getElementById("bubbleId2");
+      element.classList.toggle("bubbleClass2");
+      var element = document.getElementById("bubbleId3");
+      element.classList.toggle("bubbleClass3");
+      var element = document.getElementById("bubbleId4");
+      element.classList.toggle("bubbleClass4");
+      var element = document.getElementById("bubbleId5");
+      element.classList.toggle("bubbleClass5");
+      var element = document.getElementById("bubbleId6");
+      element.classList.toggle("bubbleClass6");
+      var element = document.getElementById("bubbleId7");
+      element.classList.toggle("bubbleClass7");
+
+      var element = document.getElementById("containerId");
+      element.classList.toggle("containerClass");
+
+
+    }
+  </script>
 </head>
 
 <body>
@@ -22,6 +45,28 @@
         </div>
       </header>
     </section>
+
+    <section style="margin-top:20px">
+
+
+      <div class="container" id="containerId">
+
+
+        <div class="bubble1" id="bubbleId1"></div>
+        <div class="bubble2" id="bubbleId2"></div>
+        <div class="bubble3" id="bubbleId3"></div>
+        <div class="bubble4" id="bubbleId4"></div>
+        <div class="bubble5" id="bubbleId5"></div>
+        <div class="bubble6" id="bubbleId6"></div>
+        <div class="bubble7" id="bubbleId7"></div>
+        <div class="bubble-main" onclick="buttonActive()">H</div>
+
+      </div>
+
+
+    </section>
+
+
   </main>
 </body>
 
